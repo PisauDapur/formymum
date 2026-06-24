@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birthday Mama</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg"></div>
+
+<div class="card" id="page1">
+
+  <h1>Selamat Ulang Tahun Mama 💖</h1>
+
+  <div class="cake">
+    <div class="candle">
+      <div class="flame" id="flame"></div>
+    </div>
+
+    <div class="layer brown"></div>
+    <div class="layer white"></div>
+    <div class="layer brown"></div>
+  </div>
+
+  <button onclick="blowCandle()">Tiup 🎉</button>
+
+</div>
+
+<div class="card hidden" id="page2">
+  <div class="party">🎉🎊🎉</div>
+  <p id="message"></p>
+  <canvas id="confetti"></canvas>
+</div>
+
+<audio id="bgm" src="music.mp3"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
